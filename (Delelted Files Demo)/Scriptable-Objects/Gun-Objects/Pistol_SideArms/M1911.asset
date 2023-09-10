@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd978798180c2a46a51217f579338e7, type: 3}
+  m_Name: M1911
+  m_EditorClassIdentifier: 
+  name: M1911
+  shootForce: 10
+  impactForce: 65
+  maxDistance: 50
+  damage: 12
+  caseForce: 20
+  bulletTrail: {fileID: 120648884187509030, guid: d2ec70c814159504cb3e12e99b00b151, type: 3}
+  spread: 0
+  impactEffect: {fileID: 1000010844420130, guid: 4edabb1c0dde62743b137378c7d22980, type: 3}
+  bullet: {fileID: 6383851725957387672, guid: 4358b4ea777e1a2468ac7e65006572e7, type: 3}
+  muzzleflash: {fileID: 198000012944515248, guid: 9defeac88977c0d448aa4541073ee9e4, type: 3}
+  GunModel: {fileID: 0}
+  lineDistance: {x: 0, y: 0, z: 50}
+  currentAmmo: 7
+  magSize: 7
+  fireRate: 250
+  reloadTime: 1.3
+  reloading: 0
